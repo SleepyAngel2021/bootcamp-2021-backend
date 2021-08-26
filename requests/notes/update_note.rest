@@ -1,0 +1,27 @@
+PUT http://localhost:3001/api/notes/612628fc10e4c92ca4b655c8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMjRlNDA0YjJjZTliMDhmY2FhMTM2NCIsInVzZXJuYW1lIjoiam9zZXBiYyIsImlhdCI6MTYyOTg5MjU3OCwiZXhwIjoxNjMwNDk3Mzc4fQ.hMLV6jzg6G5trvBAMP09q8jE7WSqA9ud3zIoplqE9oI
+
+{
+  "content": "Nota 3 actualizada con token",
+  "important": true,
+  "category": ["Test_token"]
+}
+
+###
+
+PUT http://localhost:3001/api/notes/6117d686b494012ec48a275e2
+Content-Type: application/json
+
+{
+  "content": "Esto es una nueva nota 3"
+}
+
+###
+
+PUT http://localhost:3001/api/notes/333fakeid222
+Content-Type: application/json
+
+{
+  "content": "Esto es una nueva nota 3"
+}

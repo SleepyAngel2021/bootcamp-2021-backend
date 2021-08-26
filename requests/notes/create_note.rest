@@ -1,0 +1,19 @@
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMjRlNDA0YjJjZTliMDhmY2FhMTM2NCIsInVzZXJuYW1lIjoiam9zZXBiYyIsImlhdCI6MTYyOTg5MDc2MSwiZXhwIjoxNjMwNDk1NTYxfQ.ifZvRTJ3svy2j5JzgczZW2UB1L_QeFdu7FW0DOatiP8
+
+{
+  "content": "Nota 3 de algo",
+  "important": true,
+  "category" : [
+    "Deportes"
+    ]
+}
+
+###
+
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+
+{
+}
